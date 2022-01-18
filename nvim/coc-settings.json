@@ -1,0 +1,23 @@
+{
+    "suggest.noselect": false,
+    "diagnostic.errorSign": "✘",
+    "diagnostic.warningSign": "!",
+    "diagnostic.infoSign": "?",
+    "diagnostic.checkCurrentLine": true,
+    "_coc.preferences.formatOnSaveFiletypes": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+        "json",
+        "css",
+        "html"
+    ],
+    "eslint.packageManager": "yarn",
+    "eslint.format.enable": true,
+    "eslint.autoFixOnSave": true,
+    "highlight.colors.enable": true,
+    "highlight.document.enable": true,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.datetime.format": "yy/MM/dd HH:mm:ss"
+}

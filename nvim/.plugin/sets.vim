@@ -1,0 +1,21 @@
+set relativenumber
+set number 
+set nohlsearch 
+set incsearch 
+set hidden
+set smarttab
+set tabstop=2 softtabstop=2
+set expandtab
+set scrolloff=8
+set colorcolumn=80
+set termguicolors
+set cursorline
+set autoindent
+set noswapfile 
+set ignorecase 
+set shiftwidth=4
+set cmdheight=2
+set encoding=UTF-8
+set updatetime=50
+set shortmess+=c
+set clipboard=unnamedplus
