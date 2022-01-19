@@ -53,7 +53,7 @@ nnoremap gr <Cmd>call VSCodeCall('editor.action.goToReferences')<CR>
 nmap <silent> <c-k> <c-u>
 nmap <silent> <c-j> <c-d>
 
-call plug#begin('~/.vim/plugged')
+call plug#begin()
 Plug 'tpope/vim-commentary' " gcc or gc 
 call plug#end()
 
@@ -73,7 +73,7 @@ nmap <leader>v :sp<CR>
 command! -nargs=* T split | terminal <args>
 command! -nargs=* VT vsplit | terminal <args>
 
-call plug#begin('~/.vim/plugged')
+call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
 
@@ -116,8 +116,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'tpope/vim-eunuch' " file management on the fly
 Plug 'tpope/vim-fugitive'
-
-Plug 'wakatime/vim-wakatime'
 
 call plug#end()
 

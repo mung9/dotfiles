@@ -4,7 +4,7 @@
     "diagnostic.warningSign": "!",
     "diagnostic.infoSign": "?",
     "diagnostic.checkCurrentLine": true,
-    "_coc.preferences.formatOnSaveFiletypes": [
+    "coc.preferences.formatOnSaveFiletypes": [
         "javascript",
         "typescript",
         "javascriptreact",
