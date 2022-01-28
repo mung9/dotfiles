@@ -1,9 +1,10 @@
+# sample: https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+
 window:
     dimensions:
         columns: 80
         lines: 51
     dynamic_padding: false
-    decorations: none
     startup_mode: Windowed
     padding:
         x: 4
@@ -95,7 +96,10 @@ cursor:
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Block
+  style: 
+    shape: Block
+    blinking: Always
+  blink_interval: 500
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
