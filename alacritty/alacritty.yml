@@ -22,72 +22,66 @@ font:
   normal:
     family: Roboto Mono
     style: Light
-
   bold:
     family: Roboto Mono
     style: Regular
-
   italic:
     family: Roboto Mono
     style: Light Italic
-
   size: 12.0
 
-colors:
+# Color theme ported from Konsole: Linux colors 
+# Themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+colors:  
   primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
-    bright_foreground: '#ffffff'
+    foreground: '0xe3e3e3'
+    bright_foreground: '0xffffff'
+    dim_foreground:    '0xe3e3e3'
+    background: '0x1f1f1f'
+    bright_background: '0x686868' # not sure
+    dim_background:    '0x1f1f1f' # not sure
 
   cursor:
-    text:  '#282a36'
-    cursor:  '#f8f8f2'
-
-  vi_mode_cursor:
-    text: '#282a36'
-    cursor: '#f8f8f2'
+    text: '0x191622'
+    cursor: '0xf8f8f2'
 
   search:
     matches:
-      foreground: '#44475a'
-      background: '#50fa7b'
+      foreground: '0xb2b2b2'
+      background: '0xb26818'
     focused_match:
-      foreground: '#44475a'
-      background: '#ffb86c'
-    bar:
-      background: '#282a36'
-      foreground: '#f8f8f2'
-  hints:
-    start:
-      foreground: '#282a36'
-      background: '#f1fa8c'
-    end:
-      foreground: '#f1fa8c'
-      background: '#282a36'
-  line_indicator:
-    foreground: None
-    background: None
-  selection:
-    text:  '#f8f8f2'
-    background: '#44475a'
+      foreground: CellBackground
+      background: CellForeground
+
   normal:
-    black: '#21222c'
-    red: '#ff5555'
-    green: '#50fa7b'
-    yellow: '#f1fa8c'
-    blue: '#bd93f9'
-    magenta: '#ff79c6'
-    cyan: '#8be9fd'
-    white: '#f8f8f2'
+    black:   '0x000000'
+    red:     '0xb21818'
+    green:   '0x18b218'
+    yellow:  '0xb26818'
+    blue:    '0x1818b2'
+    magenta: '0xb218b2'
+    cyan:    '0x18b2b2'
+    white:   '0xb2b2b2'
+
   bright:
-    black: '#6272a4'
-    red: '#ff6e6e'
-    green: '#69ff94'
-    yellow: '#ffffa5'
-    blue: '#d6acff'
-    magenta: '#ff92df'
-    cyan: '#a4ffff'
-    white: '#ffffff'
+    black:   '0x686868'
+    red:     '0xff5454'
+    green:   '0x54ff54'
+    yellow:  '0xffff54'
+    blue:    '0x5454ff'
+    magenta: '0xff54ff'
+    cyan:    '0x54ffff'
+    white:   '0xffffff'
+
+  dim:
+    black:   '0x000000'
+    red:     '0xb21818'
+    green:   '0x18b218'
+    yellow:  '0xb26818'
+    blue:    '0x1818b2'
+    magenta: '0xb218b2'
+    cyan:    '0x18b2b2'
+    white:   '0xb2b2b2'
 
 cursor:
   # Cursor style
